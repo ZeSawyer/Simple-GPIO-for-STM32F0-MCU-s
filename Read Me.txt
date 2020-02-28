@@ -1,0 +1,15 @@
+* MCU: STM32F051R8T6. You might be able to use this also with STM32 F0 Cortex-M0 series. 
+* This example uses CMSIS core, no HAL is used. 
+* Reads an input (Input as pull down, default state of a pin is low) and blinks an LED once the input pin is detected as high.
+* Please add stm32f051x8 header file in your CMSIS driver folder.
+* Feel free to correct any mistakes I might have done.
+
+The functions will accomplish the foolowing:  
+* Sets output pins as push pull, medium speed and no pull up/ down 
+* Sets Input pins as pull down, this means the the default state of a pin is low 
+* Reads pin state and returns an integer. 1 for high level and 0 for low level 
+* Sets pin state as high/ low 
+
+
+There is no license for this project.
+Pleae upload the library files in your text editor (KEIL uVision in my case) and execute.
